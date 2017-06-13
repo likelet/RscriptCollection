@@ -15,4 +15,4 @@ jpeg(file = "input1.jpeg")MEDIPS.plotSaturation(inpu1_sr)dev.off()jpeg(file = "i
 jpeg(file = "sample1.jpeg")MEDIPS.plotSaturation(sample1_sr)dev.off()
 jpeg(file = "sample2.jpeg")MEDIPS.plotSaturation(sample2_sr)dev.off()
 #DMR analysis using replicatestreatset=c(JK2_set,JK4_set,JK6_set)koset=c(JK1_set,JK3_set,JK5_set)CS=MEDIPS.couplingVector(pattern = "CG", refObj = treatset[[1]])mr.edgeR = MEDIPS.meth(MSet1 = koset, MSet2 = treatset,                       CSet = CS, ISet1 = JK5igg_set, ISet2 = JK6igg_set,                       p.adj = "BH", diff.method = "edgeR", MeDIP = T, CNV = F, minRowSum = 6)
-mr.edgeR.s = MEDIPS.selectSig(results = mr.edgeR, p.value = 0.1, adj = T,                               ratio = NULL, bg.counts = NULL, CNV = F)
+
