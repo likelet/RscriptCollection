@@ -5,5 +5,5 @@
 ## Gallary
 ### Cleavage plot
 ![Nothing shown here](images/cleavage_plot.png)
-### Cleavage plot 
+### Tumor VS Met. plot
 ![Perform my code and then polish yourself :)](images/)
