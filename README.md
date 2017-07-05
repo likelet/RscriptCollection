@@ -7,3 +7,6 @@
 ![Nothing shown here](images/cleavage_plot.png)
 ### Tumor VS Met. plot
 ![Perform my code and then polish yourself :)](images/)
+
+### Gene cumsum number plot
+![Gene cumsum number plot](images/gene_cumsum_num.png)
