@@ -1,0 +1,187 @@
+Hugo_Symbol	Entrez_Gene_Id	Center	NCBI_Build	Chromosome	Start_position	End_position	Strand	Variant_Classification	Variant_Type	Reference_Allele	Tumor_Seq_Allele1	Tumor_Seq_Allele2	dbSNP_RS	dbSNP_Val_Status	Tumor_Sample_Barcode	Matched_Norm_Sample_Barcode	Match_Norm_Seq_Allele1	Match_Norm_Seq_Allele2	Tumor_Validation_Allele1	Tumor_Validation_Allele2	Match_Norm_Validation_Allele1	Match_Norm_Validation_Allele2	Verification_Status	Validation_Status	Mutation_Status	Sequencing_Phase	Sequence_Source	Validation_Method	Score	BAM_File	Sequencer	Tumor_Sample_UUID	Matched_Norm_Sample_UUID	COSMIC_Codon	COSMIC_Gene	Transcript_Id	Exon	ChromChange	AAChange	Genome_Plus_Minus_10_Bp	Drug_Target	TTotCov	TVarCov	NTotCov	NVarCov	dbSNPPopFreq
+IGFN1	0	.	GRCh37	1	201176688	201176688	+	Nonsense_Mutation	SNP	G	G	A	novel	.	T748	NID490_748	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	exon1	c.2667G>A	p.W889*	.	.	.	.	.	.	.
+CPA3	0	.	GRCh37	3	148601602	148601602	+	Missense_Mutation	SNP	G	G	T	rs760646834	.	T748	NID490_748	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000296046	exon9	c.981G>T	p.L327F	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112111320	112111320	+	Intron	SNP	A	A	G	novel	.	T748	NID490_748	A	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon	c.423-6A>G		.	.	.	.	.	.	.
+C6orf118	0	.	GRCh37	6	165715347	165715347	+	Missense_Mutation	SNP	C	C	A	novel	.	T748	NID490_748	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000230301	exon2	c.464G>T	p.G155V	.	.	.	.	.	.	.
+ARHGAP5	0	.	GRCh37	14	32561340	32561340	+	Missense_Mutation	SNP	G	G	A	rs78337553	.	T748	NID490_748	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000345122	exon2	c.1465G>A	p.E489K	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7590694	7590694	+	Splice_Site	SNP	C	C	G	novel	.	T748	NID490_748	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	.	c.-29+1G>C		.	.	.	.	.	.	.
+CYP4F2	0	.	GRCh37	19	15989696	15989696	+	Missense_Mutation	SNP	G	G	C	rs3952537	.	T748	NID490_748	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000221700	exon1	c.1448C>G	p.A483G	.	.	.	.	.	.	.
+CYP4F2	0	.	GRCh37	19	15989730	15989730	+	Missense_Mutation	SNP	T	T	C	rs4020346	.	T748	NID490_748	T	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000221700	exon1	c.1414A>G	p.T472A	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237954741	237954741	+	Missense_Mutation	SNP	C	C	T	rs121918600	.	T1026	NID495_1026	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon9	c.13489C>T	p.R4497C	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179495619	179495619	+	Missense_Mutation	SNP	G	G	T	novel	.	T1026	NID495_1026	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon2	c.44066C>A	p.T14689N	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179589211	179589211	+	Missense_Mutation	SNP	G	G	T	novel	.	T1026	NID495_1026	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon7	c.20891C>A	p.T6964K	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179594488	179594488	+	Missense_Mutation	SNP	C	C	A	novel	.	T1026	NID495_1026	C	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon6	c.18492G>T	p.Q6164H	.	.	.	.	.	.	.
+FAT4	0	.	GRCh37	4	126411637	126411637	+	Missense_Mutation	SNP	G	G	A	rs755666152	.	T1026	NID495_1026	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000394329	exon1	c.13660G>A	p.V4554I	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112174112	112174112	+	Nonsense_Mutation	SNP	G	G	T	.		T1026	NID495_1026	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.2821G>T	p.E941*	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112175480	112175480	+	Nonsense_Mutation	SNP	G	G	T	.		T1026	NID495_1026	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.4189G>T	p.E1397*	.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116421584	116421584	+	3'UTR	SNP	T	T	G	novel	.	T1026	NID495_1026	T	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon7	c.*4667A>C		.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116599371	116599371	+	Nonsense_Mutation	SNP	G	G	A	rs121908432	.	T1026	NID495_1026	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon5	c.2557C>T	p.R853*	.	.	.	.	.	.	.
+MYO16	0	.	GRCh37	13	109793429	109793429	+	Silent	SNP	G	G	A	novel	.	T1026	NID495_1026	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000356711	exon3	c.4803G>A	p.P1601P	.	.	.	.	.	.	.
+SMAD4	0	.	GRCh37	18	48575696	48575696	+	Splice_Site	SNP	T	T	C	novel	.	T1026	NID495_1026	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000342988	.	c.454+2T>C	p.X152_splice	.	.	.	.	.	.	.
+IGSF3	0	.	GRCh37	1	117131400	117131400	+	Nonsense_Mutation	SNP	C	C	A	rs4081622	.	T1275	NID499_1275	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000369483	exon9	c.2416G>T	p.E806*	.	.	.	.	.	.	.
+IGSF3	0	.	GRCh37	1	117131406	117131406	+	Missense_Mutation	SNP	C	C	T	rs781608159	.	T1275	NID499_1275	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000369483	exon9	c.2410G>A	p.V804M	.	.	.	.	.	.	.
+CYP4F2	0	.	GRCh37	19	15989696	15989696	+	Missense_Mutation	SNP	G	G	C	rs3952537	.	T1275	NID499_1275	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000221700	exon1	c.1448C>G	p.A483G	.	.	.	.	.	.	.
+CYP4F2	0	.	GRCh37	19	15989730	15989730	+	Missense_Mutation	SNP	T	T	C	rs4020346	.	T1275	NID499_1275	T	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000221700	exon1	c.1414A>G	p.T472A	.	.	.	.	.	.	.
+SPTA1	0	.	GRCh37	1	158648200	158648200	+	Missense_Mutation	SNP	C	C	T	rs374770233	.	T1348	NID504_1348	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368147	exon6	c.803G>A	p.R268Q	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112174262	112174262	+	Nonsense_Mutation	SNP	G	G	T	novel	.	T1348	NID504_1348	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.2971G>T	p.E991*	.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116631902	116631902	+	Silent	SNP	C	C	T	rs7823278	.	T1348	NID504_1348	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon3	c.423G>A	p.P141P	.	.	.	.	.	.	.
+IGFN1	0	.	GRCh37	1	201168732	201168732	+	Intron	SNP	T	T	G	novel	.	T1916	NID581_1916	T	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	.	c.413-5T>G		.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237889582	237889582	+	Missense_Mutation	SNP	C	C	T	rs559154874	.	T1916	NID581_1916	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon7	c.10699C>T	p.R3567C	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179454606	179454606	+	Missense_Mutation	SNP	A	A	G	novel	.	T1916	NID581_1916	A	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon3	c.61846T>C	p.W20616R	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179534894	179534894	+	Intron	SNP	A	A	T	novel	.	T1916	NID581_1916	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	.	c.35386+51T>A		.	.	.	.	.	.	.
+CPA3	0	.	GRCh37	3	148600275	148600275	+	Intron	SNP	G	G	A	rs775602948	.	T1916	NID581_1916	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000296046	.	c.688-17G>A		.	.	.	.	.	.	.
+MYO16	0	.	GRCh37	13	109704758	109704758	+	Missense_Mutation	SNP	C	C	A	rs767578972	.	T1916	NID581_1916	C	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000356711	exon2	c.2917C>A	p.L973I	.	.	.	.	.	.	.
+ARHGAP23	0	.	GRCh37	17	36633917	36633917	+	Missense_Mutation	SNP	C	C	T	rs755264872	.	T1916	NID581_1916	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000431231	exon1	c.2216C>T	p.A739V	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9071583	9071583	+	Missense_Mutation	SNP	G	G	T	novel	.	T1916	NID581_1916	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.15863C>A	p.T5288K	.	.	.	.	.	.	.
+IGSF3	0	.	GRCh37	1	117149041	117149041	+	Intron	SNP	G	G	A	rs61786586	.	T3002	NID584_3002	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000369483	.	c.1282+73C>T		.	.	.	.	.	.	.
+IGSF3	0	.	GRCh37	1	117149069	117149069	+	Intron	SNP	G	G	A	rs61786587	.	T3002	NID584_3002	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000369483	.	c.1282+45C>T		.	.	.	.	.	.	.
+APOB	0	.	GRCh37	2	21265353	21265353	+	Intron	SNP	C	C	T	novel	.	T3002	NID584_3002	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000233242	.	c.122-5G>A		.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179578906	179578906	+	Intron	SNP	G	G	T	novel	.	T3002	NID584_3002	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	.	c.26483-4C>A		.	.	.	.	.	.	.
+PIK3CA	0	.	GRCh37	3	178936091	178936091	+	Missense_Mutation	SNP	G	G	A	rs104886003	.	T3002	NID584_3002	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000263967	exon1	c.1633G>A	p.E545K	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112162891	112162891	+	Nonsense_Mutation	SNP	C	C	T	rs137854580	.	T3002	NID584_3002	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.1495C>T	p.R499*	.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25398284	25398284	+	Missense_Mutation	SNP	C	C	A	rs121913529	.	T3002	NID584_3002	C	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon2	c.35G>T	p.G12V	.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123893639	123893639	+	3'UTR	SNP	G	G	C	rs540625692	.	T3002	NID584_3002	G	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon8	c.*1389G>C		.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123893648	123893648	+	3'UTR	SNP	G	G	A	novel	.	T3002	NID584_3002	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon8	c.*1398G>A		.	.	.	.	.	.	.
+ARHGAP5	0	.	GRCh37	14	32561340	32561340	+	Missense_Mutation	SNP	G	G	A	rs78337553	.	T3002	NID584_3002	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000345122	exon2	c.1465G>A	p.E489K	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7578437	7578437	+	Nonsense_Mutation	SNP	G	G	A	rs730882001	.	T3002	NID584_3002	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon5	c.493C>T	p.Q165*	.	.	.	.	.	.	.
+ARHGAP23	0	.	GRCh37	17	36623369	36623369	+	Missense_Mutation	SNP	C	C	T	rs140587590	.	T3002	NID584_3002	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000431231	exon7	c.1445C>T	p.A482V	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9012853	9012853	+	Missense_Mutation	SNP	G	G	T	novel	.	T3002	NID584_3002	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.38591C>A	p.T12864N	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237538016	237538016	+	Splice_Site	SNP	G	G	C	novel	.	T3017	NID587_3017	G	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	.	c.385-1G>C	p.X129_splice	.	.	.	.	.	.	.
+COL6A3	0	.	GRCh37	2	238245019	238245019	+	Silent	SNP	G	G	A	rs114684687	.	T3017	NID587_3017	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000295550	exon4	c.8724C>T	p.A2908A	.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25398284	25398284	+	Missense_Mutation	SNP	C	C	T	rs121913529	.	T3017	NID587_3017	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon2	c.35G>A	p.G12D	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7578259	7578259	+	Missense_Mutation	SNP	A	A	C	.		T3017	NID587_3017	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon6	c.590T>G	p.V197G	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9064268	9064268	+	Silent	SNP	C	C	T	rs762167753	.	T3017	NID587_3017	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.23178G>A	p.A7726A	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179605842	179605842	+	Missense_Mutation	SNP	A	A	G	novel	.	T1064	NID627_1064	A	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon4	c.12118T>C	p.C4040R	.	.	.	.	.	.	.
+PIK3CA	0	.	GRCh37	3	178916725	178916725	+	Missense_Mutation	SNP	C	C	T	rs749415085	.	T1064	NID627_1064	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000263967	exon2	c.112C>T	p.R38C	.	.	.	.	.	.	.
+PCLO	0	.	GRCh37	7	82578830	82578830	+	Missense_Mutation	SNP	T	T	C	novel	.	T1064	NID627_1064	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000333891	exon6	c.11074A>G	p.S3692G	.	.	.	.	.	.	.
+PCLO	0	.	GRCh37	7	82580756	82580756	+	Nonsense_Mutation	SNP	G	G	A	.		T1064	NID627_1064	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000333891	exon6	c.9148C>T	p.R3050*	.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113649251	113649251	+	Intron	SNP	A	A	C	novel	.	T1064	NID627_1064	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	.	c.3527-17T>G		.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25398285	25398285	+	Missense_Mutation	SNP	C	C	A	rs121913530	.	T1064	NID627_1064	C	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon2	c.34G>T	p.G12C	.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123875311	123875311	+	Silent	SNP	C	C	T	rs74356260	.	T1064	NID627_1064	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon3	c.267C>T	p.A89A	.	.	.	.	.	.	.
+FREM2	0	.	GRCh37	13	39271859	39271859	+	Missense_Mutation	SNP	G	G	T	novel	.	T1064	NID627_1064	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000280481	exon2	c.5198G>T	p.C1733F	.	.	.	.	.	.	.
+FREM2	0	.	GRCh37	13	39271860	39271860	+	Missense_Mutation	SNP	C	C	G	novel	.	T1064	NID627_1064	C	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000280481	exon2	c.5199C>G	p.C1733W	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7578280	7578280	+	Missense_Mutation	SNP	G	G	A	.		T1064	NID627_1064	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon6	c.569C>T	p.P190L	.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113249535	113249535	+	Missense_Mutation	SNP	G	G	A	novel	.	T1351	NID628_1351	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	exon6	c.10511C>T	p.S3504F	.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113966868	113966868	+	Intron	SNP	T	T	G	novel	.	T1351	NID628_1351	T	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	.	c.1420+45A>C		.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7577556	7577556	+	Missense_Mutation	SNP	C	C	T	rs121912655	.	T1351	NID628_1351	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon7	c.725G>A	p.C242Y	.	.	.	.	.	.	.
+FLG	0	.	GRCh37	1	152277396	152277396	+	Silent	SNP	T	T	C	rs6681433	.	T1503	NID633_1503	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368799	exon3	c.9966A>G	p.Q3322Q	.	.	.	.	.	.	.
+FLG	0	.	GRCh37	1	152282917	152282917	+	Missense_Mutation	SNP	G	G	T	rs11204978	.	T1503	NID633_1503	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368799	exon3	c.4445C>A	p.S1482Y	.	.	.	.	.	.	.
+IGFN1	0	.	GRCh37	1	201177538	201177538	+	Missense_Mutation	SNP	G	G	T	rs7551538	.	T1503	NID633_1503	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	exon1	c.3517G>T	p.A1173S	.	.	.	.	.	.	.
+IGFN1	0	.	GRCh37	1	201178470	201178470	+	Silent	SNP	G	G	A	rs12757706	.	T1503	NID633_1503	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	exon1	c.4449G>A	p.R1483R	.	.	.	.	.	.	.
+IGFN1	0	.	GRCh37	1	201183363	201183363	+	Silent	SNP	C	C	T	rs2282415	.	T1503	NID633_1503	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	exon1	c.8787C>T	p.A2929A	.	.	.	.	.	.	.
+IGFN1	0	.	GRCh37	1	201183402	201183402	+	Silent	SNP	T	T	C	rs1568810	.	T1503	NID633_1503	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	exon1	c.8826T>C	p.P2942P	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179444533	179444533	+	Missense_Mutation	SNP	G	G	A	novel	.	T1503	NID633_1503	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon3	c.67391C>T	p.S22464F	.	.	.	.	.	.	.
+COL6A3	0	.	GRCh37	2	238253407	238253407	+	Silent	SNP	G	G	A	rs768794876	.	T1503	NID633_1503	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000295550	exon3	c.7254C>T	p.F2418F	.	.	.	.	.	.	.
+SCN5A	0	.	GRCh37	3	38616897	38616897	+	Missense_Mutation	SNP	G	G	A	novel	.	T1503	NID633_1503	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000413689	exon2	c.3557C>T	p.A1186V	.	.	.	.	.	.	.
+SCN5A	0	.	GRCh37	3	38622532	38622532	+	Missense_Mutation	SNP	C	C	T	rs199473186	.	T1503	NID633_1503	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000413689	exon1	c.3118G>A	p.G1040R	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112151216	112151216	+	Nonsense_Mutation	SNP	G	G	T	novel	.	T1503	NID633_1503	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon9	c.859G>T	p.E287*	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112175303	112175303	+	Nonsense_Mutation	SNP	C	C	T	rs121913327	.	T1503	NID633_1503	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.4012C>T	p.Q1338*	.	.	.	.	.	.	.
+PCMTD1	0	.	GRCh37	8	52733228	52733228	+	Missense_Mutation	SNP	G	G	A	rs73592211	.	T1503	NID633_1503	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000360540	exon7	c.757C>T	p.R253C	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237632540	237632540	+	Intron	SNP	G	G	T	novel	.	T1761	NID636_1761	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	.	c.1708+53G>T		.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113326793	113326793	+	Missense_Mutation	SNP	G	G	T	.		T1761	NID636_1761	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	exon4	c.7414C>A	p.P2472T	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7578464	7578464	+	Missense_Mutation	SNP	G	G	C	.		T1761	NID636_1761	G	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon5	c.466C>G	p.R156G	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179584203	179584203	+	Intron	SNP	G	G	T	novel	.	T1879	NID639_1879	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	.	c.23939-25C>A		.	.	.	.	.	.	.
+COL6A3	0	.	GRCh37	2	238277628	238277628	+	Missense_Mutation	SNP	T	T	A	novel	.	T1879	NID639_1879	T	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000295550	exon1	c.4478A>T	p.Y1493F	.	.	.	.	.	.	.
+SCN5A	0	.	GRCh37	3	38595886	38595886	+	Missense_Mutation	SNP	A	A	T	novel	.	T1879	NID639_1879	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000413689	exon2	c.4697T>A	p.L1566H	.	.	.	.	.	.	.
+CPA3	0	.	GRCh37	3	148586706	148586706	+	Missense_Mutation	SNP	A	A	T	novel	.	T1879	NID639_1879	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000296046	exon3	c.149A>T	p.D50V	.	.	.	.	.	.	.
+FAT4	0	.	GRCh37	4	126241714	126241714	+	Missense_Mutation	SNP	A	A	T	novel	.	T1879	NID639_1879	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000394329	exon1	c.4148A>T	p.Q1383L	.	.	.	.	.	.	.
+PCLO	0	.	GRCh37	7	82595126	82595126	+	Silent	SNP	T	T	C	novel	.	T1879	NID639_1879	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000333891	exon4	c.3978A>G	p.T1326T	.	.	.	.	.	.	.
+SVIL	0	.	GRCh37	10	29840090	29840090	+	Missense_Mutation	SNP	T	T	A	novel	.	T1879	NID639_1879	T	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000375398	exon8	c.263A>T	p.Y88F	.	.	.	.	.	.	.
+MYO16	0	.	GRCh37	13	109518588	109518588	+	Missense_Mutation	SNP	A	A	T	novel	.	T1879	NID639_1879	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000356711	exon1	c.1357A>T	p.M453L	.	.	.	.	.	.	.
+ARHGAP23	0	.	GRCh37	17	36623183	36623183	+	Missense_Mutation	SNP	G	G	A	rs199766741	.	T1879	NID639_1879	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000431231	exon7	c.1259G>A	p.R420Q	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9059574	9059574	+	Missense_Mutation	SNP	A	A	T	novel	.	T1879	NID639_1879	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.27872T>A	p.M9291K	.	.	.	.	.	.	.
+C6orf118	0	.	GRCh37	6	165693316	165693316	+	3'UTR	SNP	G	G	A	rs75735949	.	T1900	NID640_1900	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000230301	exon9	c.*230C>T		.	.	.	.	.	.	.
+C6orf118	0	.	GRCh37	6	165693572	165693572	+	Missense_Mutation	SNP	A	A	C	novel	.	T1900	NID640_1900	A	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000230301	exon9	c.1384T>G	p.C462G	.	.	.	.	.	.	.
+SVIL	0	.	GRCh37	10	29784072	29784072	+	Missense_Mutation	SNP	G	G	C	rs2368406	.	T1900	NID640_1900	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000375398	exon2	c.3703C>G	p.P1235A	.	.	.	.	.	.	.
+ARHGAP5	0	.	GRCh37	14	32561340	32561340	+	Missense_Mutation	SNP	G	G	A	rs78337553	.	T1900	NID640_1900	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000345122	exon2	c.1465G>A	p.E489K	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7578441	7578441	+	Nonsense_Mutation	SNP	G	G	T	.		T1900	NID640_1900	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon5	c.489C>A	p.Y163*	.	.	.	.	.	.	.
+SMAD4	0	.	GRCh37	18	48591919	48591919	+	Missense_Mutation	SNP	G	G	A	rs377767347	.	T1900	NID640_1900	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000342988	exon9	c.1082G>A	p.R361H	.	.	.	.	.	.	.
+FLG	0	.	GRCh37	1	152285980	152285980	+	Missense_Mutation	SNP	C	C	T	rs766603097	.	T1915	NID643_1915	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368799	exon3	c.1382G>A	p.R461Q	.	.	.	.	.	.	.
+C6orf118	0	.	GRCh37	6	165715517	165715517	+	Silent	SNP	G	G	A	rs146166260	.	T1915	NID643_1915	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000230301	exon2	c.294C>T	p.P98P	.	.	.	.	.	.	.
+PCLO	0	.	GRCh37	7	82545504	82545504	+	Missense_Mutation	SNP	G	G	C	novel	.	T1915	NID643_1915	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000333891	exon7	c.11798C>G	p.T3933R	.	.	.	.	.	.	.
+PCMTD1	0	.	GRCh37	8	52733228	52733228	+	Missense_Mutation	SNP	G	G	A	rs73592211	.	T1915	NID643_1915	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000360540	exon7	c.757C>T	p.R253C	.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25398284	25398284	+	Missense_Mutation	SNP	C	C	A	rs121913529	.	T1915	NID643_1915	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon2	c.35G>T	p.G12V	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112175390	112175390	+	Nonsense_Mutation	SNP	C	C	T	rs121913328	.	T2386	NID646_2386	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.4099C>T	p.Q1367*	.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116616838	116616838	+	Missense_Mutation	SNP	C	C	T	novel	.	T2386	NID646_2386	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon4	c.1358G>A	p.S453N	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237777617	237777617	+	Missense_Mutation	SNP	C	C	T	rs745569662	.	T2414	NID651_2414	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon3	c.5189C>T	p.T1730M	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179434069	179434069	+	Missense_Mutation	SNP	C	C	G	novel	.	T2414	NID651_2414	C	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon3	c.76790G>C	p.R25597T	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112173917	112173917	+	Nonsense_Mutation	SNP	C	C	T	rs121913333	.	T2414	NID651_2414	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.2626C>T	p.R876*	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112175207	112175207	+	Nonsense_Mutation	SNP	G	G	T	rs121913462	.	T2414	NID651_2414	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.3916G>T	p.E1306*	.	.	.	.	.	.	.
+C6orf118	0	.	GRCh37	6	165713883	165713883	+	Missense_Mutation	SNP	C	C	A	novel	.	T2414	NID651_2414	C	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000230301	exon3	c.846G>T	p.L282F	.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113871429	113871429	+	Missense_Mutation	SNP	T	T	A	novel	.	T2414	NID651_2414	T	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	exon1	c.1700A>T	p.Q567L	.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116424277	116424277	+	3'UTR	SNP	G	G	A	novel	.	T2414	NID651_2414	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon7	c.*1974C>T		.	.	.	.	.	.	.
+FREM2	0	.	GRCh37	13	39459103	39459103	+	3'UTR	SNP	G	G	A	novel	.	T2414	NID651_2414	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000280481	exon2	c.*4179G>A		.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237754082	237754082	+	Missense_Mutation	SNP	C	C	T	rs752107643	.	T2782	NID654_2782	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon3	c.3950C>T	p.T1317M	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179598169	179598169	+	Missense_Mutation	SNP	A	A	G	novel	.	T2782	NID654_2782	A	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon5	c.15851T>C	p.V5284A	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112173917	112173917	+	Nonsense_Mutation	SNP	C	C	T	rs121913333	.	T2782	NID654_2782	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.2626C>T	p.R876*	.	.	.	.	.	.	.
+SVIL	0	.	GRCh37	10	29783856	29783856	+	Silent	SNP	C	C	T	rs147715501	.	T2782	NID654_2782	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000375398	exon2	c.3828G>A	p.R1276R	.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25378562	25378562	+	Missense_Mutation	SNP	C	C	T	rs121913527	.	T2782	NID654_2782	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon4	c.436G>A	p.A146T	.	.	.	.	.	.	.
+SPTA1	0	.	GRCh37	1	158596756	158596756	+	Missense_Mutation	SNP	C	C	G	novel	.	T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368147	exon4	c.5706G>C	p.K1902N	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237886554	237886554	+	Missense_Mutation	SNP	C	C	T	novel	.	T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon7	c.10681C>T	p.L3561F	.	.	.	.	.	.	.
+APOB	0	.	GRCh37	2	21224839	21224839	+	Missense_Mutation	SNP	C	C	A	novel	.	T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000233242	exon2	c.13455G>T	p.K4485N	.	.	.	.	.	.	.
+FBXW7	0	.	GRCh37	4	153245521	153245521	+	Missense_Mutation	SNP	C	C	A	novel	.	T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000281708	exon1	c.1670G>T	p.G557V	.	.	.	.	.	.	.
+FBXW7	0	.	GRCh37	4	153250865	153250865	+	Missense_Mutation	SNP	C	C	A	novel	.	T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000281708	exon8	c.1195G>T	p.D399Y	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112175000	112175000	+	Nonsense_Mutation	SNP	C	C	T	.		T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.3709C>T	p.Q1237*	.	.	.	.	.	.	.
+PCMTD1	0	.	GRCh37	8	52733231	52733231	+	Nonsense_Mutation	SNP	G	G	A	rs75748152	.	T2797	NID655_2797	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000360540	exon7	c.754C>T	p.R252*	.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25378562	25378562	+	Missense_Mutation	SNP	C	C	T	rs121913527	.	T2797	NID655_2797	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon4	c.436G>A	p.A146T	.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123879666	123879666	+	Missense_Mutation	SNP	A	A	G	rs61955119	.	T2797	NID655_2797	A	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon4	c.362A>G	p.K121R	.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123879668	123879668	+	Missense_Mutation	SNP	G	G	C	rs61955120	.	T2797	NID655_2797	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon4	c.364G>C	p.G122R	.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123892095	123892095	+	Missense_Mutation	SNP	T	T	C	rs61955126	.	T2797	NID655_2797	T	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon8	c.904T>C	p.C302R	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112116592	112116592	+	Nonsense_Mutation	SNP	C	C	T	rs587781392	.	T2867	NID675_2867	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon6	c.637C>T	p.R213*	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112128143	112128143	+	Nonsense_Mutation	SNP	C	C	T	rs62619935	.	T2867	NID675_2867	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon7	c.646C>T	p.R216*	.	.	.	.	.	.	.
+ARHGAP5	0	.	GRCh37	14	32561340	32561340	+	Missense_Mutation	SNP	G	G	A	rs78337553	.	T2867	NID675_2867	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000345122	exon2	c.1465G>A	p.E489K	.	.	.	.	.	.	.
+FLG	0	.	GRCh37	1	152275394	152275394	+	Missense_Mutation	SNP	C	C	T	rs370643935	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368799	exon3	c.11968G>A	p.G3990R	.	.	.	.	.	.	.
+IGFN1	0	.	GRCh37	1	201168470	201168470	+	Missense_Mutation	SNP	C	C	T	novel	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000335211	exon6	c.376C>T	p.R126W	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237496827	237496827	+	Intron	SNP	A	A	T	novel	.	T2960	NID678_2960	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	.	c.273+2545A>T		.	.	.	.	.	.	.
+APOB	0	.	GRCh37	2	21232239	21232239	+	Missense_Mutation	SNP	T	T	G	novel	.	T2960	NID678_2960	T	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000233242	exon2	c.7501A>C	p.S2501R	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179455637	179455637	+	Missense_Mutation	SNP	G	G	A	rs760277470	.	T2960	NID678_2960	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon3	c.60815C>T	p.P20272L	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179534980	179534980	+	Missense_Mutation	SNP	C	C	T	rs756874306	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon1	c.35351G>A	p.R11784H	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179605918	179605918	+	Missense_Mutation	SNP	C	C	A	.		T2960	NID678_2960	C	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon4	c.12042G>T	p.E4014D	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179643845	179643845	+	Missense_Mutation	SNP	T	T	C	novel	.	T2960	NID678_2960	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon2	c.3964A>G	p.I1322V	.	.	.	.	.	.	.
+COL6A3	0	.	GRCh37	2	238247680	238247680	+	Missense_Mutation	SNP	C	C	G	novel	.	T2960	NID678_2960	C	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000295550	exon3	c.8545G>C	p.V2849L	.	.	.	.	.	.	.
+PIK3CA	0	.	GRCh37	3	178936082	178936082	+	Missense_Mutation	SNP	G	G	A	rs121913273	.	T2960	NID678_2960	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000263967	exon1	c.1624G>A	p.E542K	.	.	.	.	.	.	.
+FAT4	0	.	GRCh37	4	126372220	126372220	+	Missense_Mutation	SNP	A	A	C	.		T2960	NID678_2960	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000394329	exon9	c.10049A>C	p.K3350T	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112175639	112175639	+	Nonsense_Mutation	SNP	C	C	T	rs121913332	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon1	c.4348C>T	p.R1450*	.	.	.	.	.	.	.
+PCMTD1	0	.	GRCh37	8	52733242	52733242	+	Missense_Mutation	SNP	C	C	T	rs79820636	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000360540	exon7	c.743G>A	p.R248H	.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113266433	113266433	+	Intron	SNP	C	C	G	novel	.	T2960	NID678_2960	C	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	.	c.10110+49G>C		.	.	.	.	.	.	.
+KRAS	0	.	GRCh37	12	25378562	25378562	+	Missense_Mutation	SNP	C	C	T	rs121913527	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000256078	exon4	c.436G>A	p.A146T	.	.	.	.	.	.	.
+TP53	0	.	GRCh37	17	7578263	7578263	+	Nonsense_Mutation	SNP	G	G	A	rs397516435	.	T2960	NID678_2960	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000269305	exon6	c.586C>T	p.R196*	.	.	.	.	.	.	.
+SMAD4	0	.	GRCh37	18	48604665	48604665	+	Missense_Mutation	SNP	G	G	A	.		T2960	NID678_2960	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000342988	exon1	c.1487G>A	p.R496H	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9074762	9074762	+	Silent	SNP	C	C	T	novel	.	T2960	NID678_2960	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.12684G>A	p.A4228A	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179399915	179399915	+	Missense_Mutation	SNP	G	G	T	novel	.	T3357	NID682_3357	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon3	c.101427C>A	p.H33809Q	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179482583	179482583	+	Missense_Mutation	SNP	C	C	T	rs376140223	.	T3357	NID682_3357	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon2	c.47495G>A	p.R15832Q	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179485878	179485878	+	Silent	SNP	G	G	A	novel	.	T3357	NID682_3357	G	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon2	c.45567C>T	p.Y15189Y	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179610836	179610836	+	Intron	SNP	C	C	T	rs141483365	.	T3357	NID682_3357	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	.	c.11312-4188G>A		.	.	.	.	.	.	.
+CSMD3	0	.	GRCh37	8	113277720	113277720	+	Missense_Mutation	SNP	T	T	C	novel	.	T3357	NID682_3357	T	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000297405	exon6	c.9608A>G	p.Y3203C	.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116423371	116423371	+	3'UTR	SNP	T	T	C	novel	.	T3357	NID682_3357	T	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon7	c.*2880A>G		.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116424690	116424690	+	3'UTR	SNP	C	C	T	novel	.	T3357	NID682_3357	C	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon7	c.*1561G>A		.	.	.	.	.	.	.
+COL6A3	0	.	GRCh37	2	238275376	238275376	+	Missense_Mutation	SNP	A	A	T	novel	.	T3429	NID687_3429	A	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000295550	exon1	c.5454T>A	p.D1818E	.	.	.	.	.	.	.
+FBXW7	0	.	GRCh37	4	153253772	153253772	+	Missense_Mutation	SNP	A	A	C	novel	.	T3429	NID687_3429	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000281708	exon6	c.961T>G	p.W321G	.	.	.	.	.	.	.
+APC	0	.	GRCh37	5	112155042	112155042	+	Splice_Site	SNP	G	G	A	.		T3429	NID687_3429	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000457016	exon	c.1312+1G>A	p.X438_splice	.	.	.	.	.	.	.
+SVIL	0	.	GRCh37	10	29783908	29783908	+	Missense_Mutation	SNP	A	A	G	rs78773460	.	T3429	NID687_3429	A	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000375398	exon2	c.3776T>C	p.M1259T	.	.	.	.	.	.	.
+MYO16	0	.	GRCh37	13	109318374	109318374	+	Missense_Mutation	SNP	G	G	A	rs761292500	.	T3429	NID687_3429	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000356711	exon2	c.103G>A	p.E35K	.	.	.	.	.	.	.
+ARHGAP5	0	.	GRCh37	14	32563542	32563542	+	Missense_Mutation	SNP	G	G	A	novel	.	T3429	NID687_3429	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000345122	exon2	c.3667G>A	p.D1223N	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9059678	9059678	+	Silent	SNP	G	G	T	novel	.	T3429	NID687_3429	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.27768C>A	p.I9256I	.	.	.	.	.	.	.
+IGSF3	0	.	GRCh37	1	117150736	117150736	+	Missense_Mutation	SNP	C	C	G	rs61786589	.	T975	NID693_975TDG_TTAGGC_L006	C	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000369483	exon5	c.1050G>C	p.K350N	.	.	.	.	.	.	.
+FLG	0	.	GRCh37	1	152277822	152277822	+	Silent	SNP	T	T	C	rs3126069	.	T975	NID693_975TDG_TTAGGC_L006	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368799	exon3	c.9540A>G	p.S3180S	.	.	.	.	.	.	.
+FLG	0	.	GRCh37	1	152277826	152277826	+	Missense_Mutation	SNP	A	A	C	rs2065957	.	T975	NID693_975TDG_TTAGGC_L006	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368799	exon3	c.9536T>G	p.V3179G	.	.	.	.	.	.	.
+SPTA1	0	.	GRCh37	1	158619733	158619733	+	Missense_Mutation	SNP	A	A	G	novel	.	T975	NID693_975TDG_TTAGGC_L006	A	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000368147	exon2	c.3482T>C	p.L1161S	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237817618	237817618	+	Silent	SNP	G	G	T	novel	.	T975	NID693_975TDG_TTAGGC_L006	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon5	c.7869G>T	p.L2623L	.	.	.	.	.	.	.
+RYR2	0	.	GRCh37	1	237996054	237996054	+	3'UTR	SNP	G	G	A	novel	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000366574	exon1	c.*107G>A		.	.	.	.	.	.	.
+APOB	0	.	GRCh37	2	21224821	21224821	+	Silent	SNP	G	G	A	.		T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000233242	exon2	c.13473C>T	p.Y4491Y	.	.	.	.	.	.	.
+APOB	0	.	GRCh37	2	21231937	21231937	+	Missense_Mutation	SNP	T	T	G	novel	.	T975	NID693_975TDG_TTAGGC_L006	T	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000233242	exon2	c.7803A>C	p.E2601D	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179419255	179419255	+	Missense_Mutation	SNP	G	G	A	rs781330566	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	exon3	c.88819C>T	p.R29607W	.	.	.	.	.	.	.
+TTN	0	.	GRCh37	2	179495680	179495680	+	Intron	SNP	T	T	C	novel	.	T975	NID693_975TDG_TTAGGC_L006	T	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000589042	.	c.44015-10A>G		.	.	.	.	.	.	.
+CPA3	0	.	GRCh37	3	148600296	148600296	+	Missense_Mutation	SNP	G	G	A	rs765856914	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000296046	exon8	c.692G>A	p.R231H	.	.	.	.	.	.	.
+FAT4	0	.	GRCh37	4	126367573	126367573	+	Missense_Mutation	SNP	C	C	T	novel	.	T975	NID693_975TDG_TTAGGC_L006	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000394329	exon8	c.7319C>T	p.A2440V	.	.	.	.	.	.	.
+FAT4	0	.	GRCh37	4	126369731	126369731	+	Silent	SNP	A	A	G	novel	.	T975	NID693_975TDG_TTAGGC_L006	A	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000394329	exon9	c.7560A>G	p.G2520G	.	.	.	.	.	.	.
+FAT4	0	.	GRCh37	4	126369981	126369981	+	Missense_Mutation	SNP	G	G	A	rs747229172	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000394329	exon9	c.7810G>A	p.A2604T	.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116426015	116426015	+	3'UTR	SNP	G	G	T	novel	.	T975	NID693_975TDG_TTAGGC_L006	G	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon7	c.*236C>A		.	.	.	.	.	.	.
+TRPS1	0	.	GRCh37	8	116617140	116617140	+	Missense_Mutation	SNP	A	A	C	novel	.	T975	NID693_975TDG_TTAGGC_L006	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000395715	exon4	c.1056T>G	p.N352K	.	.	.	.	.	.	.
+SVIL	0	.	GRCh37	10	29779847	29779847	+	Missense_Mutation	SNP	A	A	C	rs199726033	.	T975	NID693_975TDG_TTAGGC_L006	A	C	.		.		.		Somatic		.		.		.		.	.	.	ENST00000375398	exon2	c.4121T>G	p.L1374R	.	.	.	.	.	.	.
+SETD8	0	.	GRCh37	12	123892235	123892235	+	Silent	SNP	G	G	A	rs61955128	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000402868	exon8	c.1044G>A	p.P348P	.	.	.	.	.	.	.
+FREM2	0	.	GRCh37	13	39265292	39265292	+	Missense_Mutation	SNP	G	G	A	rs746162794	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000280481	exon1	c.3811G>A	p.E1271K	.	.	.	.	.	.	.
+FREM2	0	.	GRCh37	13	39266444	39266444	+	Missense_Mutation	SNP	G	G	A	novel	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000280481	exon1	c.4963G>A	p.V1655I	.	.	.	.	.	.	.
+MYO16	0	.	GRCh37	13	109507909	109507909	+	Intron	SNP	C	C	T	rs540570909	.	T975	NID693_975TDG_TTAGGC_L006	C	T	.		.		.		Somatic		.		.		.		.	.	.	ENST00000356711	.	c.1293+8C>T		.	.	.	.	.	.	.
+ARHGAP5	0	.	GRCh37	14	32560341	32560341	+	Missense_Mutation	SNP	G	G	A	rs759654414	.	T975	NID693_975TDG_TTAGGC_L006	G	A	.		.		.		Somatic		.		.		.		.	.	.	ENST00000345122	exon2	c.466G>A	p.V156I	.	.	.	.	.	.	.
+MUC16	0	.	GRCh37	19	9068585	9068585	+	Missense_Mutation	SNP	T	T	G	novel	.	T975	NID693_975TDG_TTAGGC_L006	T	G	.		.		.		Somatic		.		.		.		.	.	.	ENST00000397910	exon3	c.18861A>C	p.E6287D	.	.	.	.	.	.	.
