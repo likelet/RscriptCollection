@@ -17,11 +17,11 @@
 
 ### Tumor VS Met plot
 
-![Tumor VS Met plot](images/met_VS_tum.png)
+![Tumor VS Met plot](images/met VS tum.png)
 
 ### Gene cumsum number plot
 
-![Gene cumsum number plot](images/met VS tum.png)
+![Gene cumsum number plot](images/gene_cumsum_num.png)
 
 ### Gene expression Box plot in TCGA pancancer 
 
