@@ -11,3 +11,5 @@
 ![Gene cumsum number plot](images/gene_cumsum_num.png)
 ### Gene expression Box plot in TCGA pancancer 
 ![Gene expression boxplot in TCGA](images/geneExpression_tcga.png)
+### Indel ditribution plot based on Crispr cas9 PCR result 
+![Indel distribution plot](images/Indel_distribution.png)
