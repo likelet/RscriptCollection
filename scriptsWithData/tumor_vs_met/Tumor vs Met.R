@@ -1,5 +1,6 @@
 rm(list = ls())
 gc()
+require(ggsci)
 require(data.table)
 require(cowplot)
 met <- fread('metasis_TCGA.maf')
@@ -13,11 +14,36 @@ Recurrence <- sapply(fuck, function(x) table(met.VS.tum[V1 == x, -3, with = FALS
 mutations <- data.table(Initial = Initial, Common = Common, Recurrence = Recurrence, Samples = fuck)
 rm(Initial, Common, Recurrence, fuck)
 mutations <- melt(mutations, id = 'Samples', variable.name = 'Types')
-mbar <- ggplot() + geom_col(data = mutations, aes(x = Samples, y = value, fill = Types)) + ylab('Somantic mutations') + theme(axis.text.x = element_text(angle = 45, vjust = 0.7))
+mbar <- ggplot() + 
+  geom_col(data = mutations, aes(x = Samples, y = value, fill = Types)) + 
+  ylab('Somantic mutations') + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 0.7))+
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank())+
+  theme(legend.position="top")+
+  scale_fill_npg()
 met.VS.tum[, V2 := as.character(V2)][V2 == 'FALSE', V2 := "Only recurrence"][V2 == 'TRUE', V2 := "Common"]
 tum.VS.met[, V2 := as.character(V2)][V2 == 'FALSE', V2 := "Only inital"][V2 == 'TRUE', V2 := "Common"]
 mutations <- rbind(met.VS.tum, tum.VS.met)
+
 names(mutations) <- c("Samples", "Types", "Genes")
-mheatmap <- ggplot() + geom_tile(data = mutations, aes(x = Samples, y = Genes, fill = Types), width = 0.7, height = 0.7, colour = 'black', size = 1) + theme(axis.text.x = element_text(angle = 45, vjust = 0.7))
-ggdraw() + draw_plot(mbar, 0, 0.7, 1, 0.3) + draw_plot(mheatmap, 0, 0, 1, 0.7) + draw_plot_label(c("a", "b"), c(0, 0), c(1, .5), size = 15)
-save_plot('met VS tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)
+
+
+#set background 
+backgroud=expand.grid(Samples=unique(mutations$Samples),Genes=unique(mutations$Genes))
+
+myColors <- pal_npg("nrc")(3)
+names(myColors) <- levels(dat$grp)
+colScale <- scale_colour_manual(name = "grp",values = myColors)
+
+mheatmap <- ggplot() + 
+  geom_tile(data = backgroud, aes(x = Samples, y = Genes),fill = "Gray", width = 0.9, height = 0.9,  size = 1)+
+  geom_tile(data = mutations, aes(x = Samples, y = Genes, fill = Types), width = 0.9, height = 0.9,  size = 1) + 
+  theme(axis.text.x = element_text(angle = 45, vjust = 1,hjust = 1))+
+  theme(axis.text.y = element_text(face="bold.italic"))+
+  theme(legend.position="none")+
+  scale_fill_npg(name="Type")
+plot_grid(mbar,mheatmap,ncol = 1, align = 'v',rel_heights = c(1/4,3/4))
+# ggdraw() + draw_plot(mbar, 0.1, 0.7, 1, 0.3) + draw_plot(mheatmap, 0, 0, 1, 0.7) + draw_plot_label(c("a", "b"), c(0, 0), c(1, .5), size = 15)
+ save_plot('met VS tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)

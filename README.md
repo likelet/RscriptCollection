@@ -21,7 +21,7 @@
 
 ### Gene cumsum number plot
 
-![Gene cumsum number plot](images/gene_cumsum_num.png)
+![Gene cumsum number plot](images/met VS tum.png)
 
 ### Gene expression Box plot in TCGA pancancer 
 
