@@ -28,6 +28,7 @@ met <- fread('metasis_TCGA.maf')
 tum <- fread('tumor_TCGA.maf')
 
 #format data 
+
 tum.VS.met <- data.table(tum$Tumor_Sample_Barcode, tum$Tumor_Sample_Barcode %in% met$Tumor_Sample_Barcode & tum$ChromChange %in% met$ChromChange, tum$Hugo_Symbol)
 met.VS.tum <- data.table(met$Tumor_Sample_Barcode, met$Tumor_Sample_Barcode %in% tum$Tumor_Sample_Barcode & met$ChromChange %in% tum$ChromChange, met$Hugo_Symbol)
 fuck <- unique(as.vector(rbind(met[,16], tum[,16])))
@@ -78,6 +79,7 @@ mheatmap <- ggplot() +
   theme(axis.text.y = element_text(face="bold.italic")) +
   theme(legend.position="none") +
   scale_fill_lancet(limits = c('Initial', 'Common', 'Recurrence'))
+
 plot_grid(mbar,mheatmap,ncol = 1, align = 'v',rel_heights = c(1/4,3/4))
 # ggdraw() + draw_plot(mbar, 0.1, 0.7, 1, 0.3) + draw_plot(mheatmap, 0, 0, 1, 0.7) + draw_plot_label(c("a", "b"), c(0, 0), c(1, .5), size = 15)
 save_plot('met_VS_tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)
