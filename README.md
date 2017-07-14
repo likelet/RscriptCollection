@@ -35,4 +35,4 @@
 
 Fork this repo, then add/modify contents according to the [structure](#project-structure).
 
-For scripts with data, you should create a new folder then place them in. For single scripts, just live it alone.
+For scripts with data, you should create a **new folder** then place them in. For single scripts, just live it alone.
