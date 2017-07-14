@@ -17,7 +17,7 @@
 
 ### Tumor VS Met plot
 
-![Tumor VS Met plot](images/met VS tum.png)
+![Tumor VS Met plot](images/met_VS_tum.png)
 
 ### Gene cumsum number plot
 

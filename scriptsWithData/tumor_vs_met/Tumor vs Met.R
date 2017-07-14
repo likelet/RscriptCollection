@@ -46,4 +46,4 @@ mheatmap <- ggplot() +
   scale_fill_npg(name="Type")
 plot_grid(mbar,mheatmap,ncol = 1, align = 'v',rel_heights = c(1/4,3/4))
 # ggdraw() + draw_plot(mbar, 0.1, 0.7, 1, 0.3) + draw_plot(mheatmap, 0, 0, 1, 0.7) + draw_plot_label(c("a", "b"), c(0, 0), c(1, .5), size = 15)
- save_plot('met VS tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)
+ save_plot('met_VS_tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)
