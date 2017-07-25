@@ -32,8 +32,8 @@ met=met[which(met$Variant_Classification %in% includeType),]
 tum=tum[which(tum$Variant_Classification %in% includeType),]
 #exclude samples 
 excludeSample=c("T2099")
-met=met[which(met$Tumor_Sample_Barcode %in% excludeSample),]
-tum=tum[which(tum$Tumor_Sample_Barcode %in% excludeSample),]
+met=met[!(met$Tumor_Sample_Barcode %in% excludeSample),]
+tum=tum[!(tum$Tumor_Sample_Barcode %in% excludeSample),]
 
 #format data 
 
