@@ -17,7 +17,7 @@
 
 ### Tumor VS Met plot
 
-![Tumor VS Met plot](images/met_VS_tum.png)
+![Tumor VS Met plot](images/met_VS_tum2.png)
 
 ### Gene cumsum number plot
 
@@ -30,7 +30,8 @@
 ### Indel ditribution plot based on Crispr cas9 PCR result 
 
 ![Indel distribution plot](images/Indel_distribution.png)
-
+### Forest plot 
+![Forest plot ](images/forestplot.png)
 ## How to contribute
 
 Fork this repo, then add/modify contents according to the [structure](#project-structure).
