@@ -24,8 +24,8 @@ memoSort <- function(M) {
 
 
 #read data 
-met <- fread('scriptsWithData/tumor_vs_met/All_metastasis_filter_mut.maf')
-tum <- fread('scriptsWithData/tumor_vs_met/All_primary_filter_mut.maf')
+met <- fread('scriptsWithData/tumor_vs_met/All_metastasis_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('SYSUCC_', Tumor_Sample_Barcode)]
+tum <- fread('scriptsWithData/tumor_vs_met/All_primary_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('SYSUCC_', Tumor_Sample_Barcode)]
 
 #retain mutations potentially functionally 
 retaind_features=c("frameshift deletion","frameshift insertion","stopgain","nonsynonymous SNV","splicing","stoploss")
@@ -59,10 +59,15 @@ names(mutations_onco) <- c("Samples", "Types", "Genes")
 oncomatrix= data.frame(dcast(mutations_onco, Genes ~ Samples))
 row.names(oncomatrix)=oncomatrix$Genes
 oncomatrix=oncomatrix[,-1]
+#retain top genes
+filteredGenes=row.names(oncomatrix[rowSums(oncomatrix!=0)>=2,])
+oncomatrix=oncomatrix[filteredGenes,]
 oncomatrix=memoSort(oncomatrix!=0)
+filteredGenes=row.names(oncomatrix)
 
-
-mutations$Samples=factor(mutations$Samples,levels =unique(colnames(oncomatrix)) )
+mutations_onco=mutations_onco[mutations_onco$Genes %in% filteredGenes,]
+mutations_onco$Genes=factor(mutations_onco$Genes,levels = filteredGenes)
+mutations$Samples=factor(mutations$Samples,levels =unique(colnames(oncomatrix)))
 
 mbar <- ggplot() + 
   geom_col(data = mutations, aes(x = Samples, y = value, fill = Types)) + 
@@ -76,9 +81,10 @@ mbar <- ggplot() +
 
 
 #set background 
-backgroud=expand.grid(Samples=unique(mutations_onco$Samples),Genes=unique(mutations_onco$Genes))
+
+backgroud=expand.grid(Samples=unique(mutations_onco$Samples),Genes=unique(filteredGenes))
 backgroud$Samples=factor(backgroud$Samples,levels =colnames(oncomatrix) )
-backgroud$Genes=factor(backgroud$Genes,levels =rev(row.names(oncomatrix) ))
+backgroud$Genes=factor(backgroud$Genes,levels =rev(filteredGenes))
 mheatmap <- ggplot() + 
   geom_tile(data = backgroud, aes(x = Samples, y = Genes),fill = "Gray", width = 0.9, height = 0.9,  size = 1) +
   geom_tile(data = mutations_onco, aes(x = Samples, y = Genes, fill = Types), width = 0.9, height = 0.9,  size = 1) + 
