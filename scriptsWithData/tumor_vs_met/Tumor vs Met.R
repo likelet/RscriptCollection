@@ -33,6 +33,7 @@ met=met[met$Variant_Classification %in% retaind_features,]
 tum=tum[tum$Variant_Classification %in% retaind_features,]
 
 
+
 #format data 
 
 tum.VS.met <- data.table(tum$Tumor_Sample_Barcode, tum$Tumor_Sample_Barcode %in% met$Tumor_Sample_Barcode & tum$ChromChange %in% met$ChromChange, tum$Hugo_Symbol)
