@@ -24,8 +24,8 @@ memoSort <- function(M) {
 
 
 #read data 
-met <- fread('scriptsWithData/tumor_vs_met/All_metastasis_filter_mut.maf')
-tum <- fread('scriptsWithData/tumor_vs_met/All_primary_filter_mut.maf')
+met <- fread('scriptsWithData/tumor_vs_met/All_metastasis_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('SYSUCC_', Tumor_Sample_Barcode)]
+tum <- fread('scriptsWithData/tumor_vs_met/All_primary_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('SYSUCC_', Tumor_Sample_Barcode)]
 
 #retain mutations potentially functionally 
 retaind_features=c("frameshift deletion","frameshift insertion","stopgain","nonsynonymous SNV","splicing","stoploss")
@@ -62,7 +62,7 @@ oncomatrix=oncomatrix[,-1]
 oncomatrix=memoSort(oncomatrix!=0)
 
 
-mutations$Samples=factor(mutations$Samples,levels =unique(colnames(oncomatrix)) )
+mutations$Samples=factor(mutations$Samples,levels =unique(colnames(oncomatrix)))
 
 mbar <- ggplot() + 
   geom_col(data = mutations, aes(x = Samples, y = value, fill = Types)) + 
