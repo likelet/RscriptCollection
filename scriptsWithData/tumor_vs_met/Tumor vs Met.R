@@ -24,8 +24,8 @@ memoSort <- function(M) {
 
 
 #read data 
-met <- fread('scriptsWithData/tumor_vs_met/All_metastasis_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('SYSUCC_', Tumor_Sample_Barcode)]
-tum <- fread('scriptsWithData/tumor_vs_met/All_primary_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('SYSUCC_', Tumor_Sample_Barcode)]
+met <- fread('scriptsWithData/tumor_vs_met/All_metastasis_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('S_', Tumor_Sample_Barcode)]
+tum <- fread('scriptsWithData/tumor_vs_met/All_primary_filter_mut.maf')[,Tumor_Sample_Barcode := paste0('S_', Tumor_Sample_Barcode)]
 
 #retain mutations potentially functionally 
 retaind_features=c("frameshift deletion","frameshift insertion","stopgain","nonsynonymous SNV","splicing","stoploss")
@@ -60,7 +60,7 @@ oncomatrix= data.frame(dcast(mutations_onco, Genes ~ Samples))
 row.names(oncomatrix)=oncomatrix$Genes
 oncomatrix=oncomatrix[,-1]
 #retain top genes
-filteredGenes=row.names(oncomatrix[rowSums(oncomatrix!=0)>=2,])
+filteredGenes=row.names(oncomatrix[rowSums(oncomatrix!=0)>2,])
 oncomatrix=oncomatrix[filteredGenes,]
 oncomatrix=memoSort(oncomatrix!=0)
 filteredGenes=row.names(oncomatrix)
@@ -95,4 +95,4 @@ mheatmap <- ggplot() +
 
 plot_grid(mbar,mheatmap,ncol = 1, align = 'v',rel_heights = c(1/4,3/4))
 # ggdraw() + draw_plot(mbar, 0.1, 0.7, 1, 0.3) + draw_plot(mheatmap, 0, 0, 1, 0.7) + draw_plot_label(c("a", "b"), c(0, 0), c(1, .5), size = 15)
-save_plot('met_VS_tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)
+save_plot('images/met_VS_tum.png', ggplot2::last_plot(), base_width = 11, base_height = 9)
