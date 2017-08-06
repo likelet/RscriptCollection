@@ -61,12 +61,12 @@ getHeatmap <- function(filename="bl_scna.txt",color="red",rmlable){
 colorlist=scale_fill_npg()
 colorvec=colorlist$palette(6)
 # run functions 
-g1=getHeatmap(filename="scriptsWithData/heatmapForcfDNA/bl_scna.txt",color=colorvec[1],rmlable=F)
-g2=getHeatmap(filename="scriptsWithData/heatmapForcfDNA/bl_snv.txt",color=colorvec[2],rmlable=T)
-g3=getHeatmap(filename="scriptsWithData/heatmapForcfDNA/bl_sv.txt",color=colorvec[3],rmlable=T)
-g4=getHeatmap(filename="scriptsWithData/heatmapForcfDNA/pd_scna.txt",color=colorvec[4],rmlable=T)
-g5=getHeatmap(filename="scriptsWithData/heatmapForcfDNA/pd_snv.txt",color=colorvec[5],rmlable=T)
-g6=getHeatmap(filename="scriptsWithData/heatmapForcfDNA/mac.txt",color="black",rmlable=T)
+g1=getHeatmap(filename="bl_scna.txt",color=colorvec[1],rmlable=F)
+g2=getHeatmap(filename="bl_snv.txt",color=colorvec[2],rmlable=T)
+g3=getHeatmap(filename="bl_sv.txt",color=colorvec[3],rmlable=T)
+g4=getHeatmap(filename="pd_scna.txt",color=colorvec[4],rmlable=T)
+g5=getHeatmap(filename="pd_snv.txt",color=colorvec[5],rmlable=T)
+g6=getHeatmap(filename="mac.txt",color="black",rmlable=T)
 
 #combine plot 
 plot_grid(plot_grid(plotlist = g1,nrow  = 1, align = "h",rel_widths = c(3/4,1/4)),
