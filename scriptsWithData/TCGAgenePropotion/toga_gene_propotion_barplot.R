@@ -1,3 +1,4 @@
+
 library(ggplot2)
 library(ggsci)
 library(ggsignif)
@@ -13,6 +14,7 @@ Gene1Gene2 = cbind(Gene1Gene2, Gene1_mark, Gene2_mark)
 
 # statistic test for propotion  using chisq test 
 mt = table(Gene1Gene2[, 3:4])
+
 sig="NS"
 Pvalue=chisq.test(mt)$p.value 
 if(Pvalue<0.01){
@@ -22,6 +24,7 @@ if(Pvalue<0.01){
 }
 
 #plot function
+
 g = 
   ggplot(Gene1Gene2[, 3:4], aes(x = Gene1_mark,fill = Gene2_mark)) + 
   geom_bar(position = "fill") +
@@ -39,3 +42,4 @@ g =
   annotate("rect", xmin = 1, xmax = 2, ymin = 1.1, ymax = 1.1, alpha = 1, colour = "black")+
   geom_text(x = 1.5, y = 1.11, label = sig, size = 12)
 ggsave("images/barRatioPlot.png", width = 8.6, height = 6.6)
+
