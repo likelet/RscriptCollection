@@ -32,6 +32,8 @@
 ![Indel distribution plot](images/Indel_distribution.png)
 ### Forest plot 
 ![Forest plot ](images/forestplot.png)
+### BarRatio Plot 
+![BarRatioplot ](images/barRatioPlot.png)
 ## How to contribute
 
 Fork this repo, then add/modify contents according to the [structure](#project-structure).
