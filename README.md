@@ -34,6 +34,8 @@
 ![Forest plot ](images/forestplot.png)
 ### BarRatio Plot 
 ![BarRatioplot ](images/barRatioPlot.png)
+### author
+
 ## How to contribute
 
 Fork this repo, then add/modify contents according to the [structure](#project-structure).
