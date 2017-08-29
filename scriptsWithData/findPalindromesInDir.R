@@ -1,3 +1,4 @@
+#!/usr/bin/env Rscript
 message("Checking packages")
 packageStartupMessage("Initializing ...", appendLF = FALSE)
 suppressPackageStartupMessages(require(optparse))
