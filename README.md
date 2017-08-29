@@ -1,6 +1,6 @@
 # RscriptCollection
- This repo collected the analysis scripts used in my daily research life. It's more like a treasure box of me since the every code i wrote will be recorded here.
- Currently, only a few scripts were presented on git and i will be happy to write the datail usage of each script to make it repproductive for others.
+This repo collected the analysis scripts used in my daily research life. It's more like a treasure box of me since the every code i wrote will be recorded here.
+Currently, only a few scripts were presented on git and i will be happy to write the datail usage of each script to make it repproductive for others.
 
 ## Project structure
 
@@ -30,11 +30,18 @@
 ### Indel ditribution plot based on Crispr cas9 PCR result 
 
 ![Indel distribution plot](images/Indel_distribution.png)
+
 ### Forest plot 
-![Forest plot ](images/forestplot.png)
-### BarRatio Plot 
-![BarRatioplot ](images/barRatioPlot.png)
-### author
+
+![Forest plot](images/forestplot.png)
+
+### BarRatio Plot
+
+![BarRatioplot](images/barRatioPlot.png)
+
+### Heatmap for cfDNA
+
+![heatmapForcfDNA](images/heatmapForcfDNA.png)
 
 ## How to contribute
 
