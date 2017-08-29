@@ -17,7 +17,6 @@ parser <- add_option(parser, c("--min-looplength"), action="store", default=0,
                      help="An integer giving the minimum length of \"the loop\" of the palindromes to search for [default %default]")
 parser <- add_option(parser, c("--max-mismatch"), action="store", default=0, 
                      help="The maximum number of mismatching letters allowed between the 2 arms of the palindromes to search for [default %default]")
-# parse_args2(parser)
 
 rfq <- readFastq('.', pattern = '*.fastq|*.fq')
 
