@@ -1,5 +1,5 @@
 # RscriptCollection
-This repo collected the analysis scripts used in my daily research life. It's more like a treasure box of me since the every code i wrote will be recorded here.
+This repo collected the custmized R script and the relavent plot.
 Currently, only a few scripts were presented on git and i will be happy to write the datail usage of each script to make it repproductive for others.
 
 ## Project structure
@@ -9,7 +9,7 @@ Currently, only a few scripts were presented on git and i will be happy to write
 | [images](images) | Hold images produced by scripts |
 | [scriptsWithData](scriptsWithData) | Maintain scripts (and data if exists) |
  
-## Gallary
+## Gallery
 
 ### Cleavage plot
 
@@ -47,4 +47,4 @@ Currently, only a few scripts were presented on git and i will be happy to write
 
 Fork this repo, then add/modify contents according to the [structure](#project-structure).
 
-For scripts with data, you should create a **new folder** then place them in. For single scripts, just live it alone.
+For scripts with data, you should create a **new folder** then place them in. For single script, just leave it alone.
